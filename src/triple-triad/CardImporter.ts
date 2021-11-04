@@ -6,7 +6,7 @@ import { ERC721Card } from './ERC721Card'
 export class CardImporter {
     web3: Web3
     constructor(urls: Array<string>){
-        this.web3 = new Web3('wss://mainnet.infura.io/ws/v3/66de142eab66402fb428a78d2ce65fe1')
+        this.web3 = new Web3('wss://mainnet.infura.io/ws/v3/')
 
         //this.bulkImport(urls)
     }

@@ -5,7 +5,7 @@ export class CryptoKitty {
     web3: Web3 
 
     constructor(){
-        this.web3 = new Web3('wss://mainnet.infura.io/ws/v3/4418cbaac21f4edb8bb5d2aab2c7cb8c')
+        this.web3 = new Web3('wss://mainnet.infura.io/ws/v3/')
     }
     public async getKitty(id: number): Promise<any> {
         const value = `0x${id.toString(16)}`
